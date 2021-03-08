@@ -50,6 +50,7 @@ body {
     top: -100px;
     z-index: 1;
     filter: blur(15px);
+    /* animation: clearblur 5s linear; */
 }
 
 .container__header {
@@ -63,4 +64,14 @@ body {
     transform: translate(-50%, -50%);
     z-index: 100;
 }
+/* 
+@keyframes clearblur {
+    from {
+        filter: blur(15px);
+    }
+
+    to {
+        filter: blur(0px);
+    }
+} */
 
