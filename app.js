@@ -20,7 +20,6 @@ function percentageTransition() {
         percentage.style.opacity = fraction; 
         percentage.style.transform =`translate(-50%, -50%) scale(${fraction + 1})`;
         percentageRange++;
-        console.log(fraction)
 
         if(percentageRange > 100) {
             clearInterval(percentageIndex)

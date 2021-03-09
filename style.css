@@ -41,13 +41,13 @@ body {
 
 
 .container__img {
-    width: 120%;
-    height: 120%;
+    width: 110%;
+    height: 110%;
     object-position: top center;
     object-fit: cover;
     position: absolute;
-    left: -100px;
-    top: -100px;
+    left: -50px;
+    top: -50px;
     z-index: 1;
     filter: blur(15px);
     /* animation: clearblur 5s linear; */
